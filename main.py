@@ -27,7 +27,7 @@ def register_User():
         df = pd.DataFrame({"Email": [email], "Password": [password]})
         df.to_csv("users.csv", mode="a", header=not os.path.isfile("users.csv"), index=False)
         clear_screen()
-        print("You are now registered. Welcome!")
+        print("You are now registered. Welcome! Please login.")
     else:
         print("Password's don't match. Please try again")
 
@@ -64,10 +64,10 @@ def clear_screen():
 # Vars for main loop
 active = True
 logged_in = False
-df = pd.read_csv("users.csv")
 
 # Main loop
 while active:
+    df = pd.read_csv("users.csv")
     while logged_in:
         print("\n1. Print Database\n2. Logout\n3. Quit")
         choice = input("What would you like to do? ")
