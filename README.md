@@ -1,3 +1,11 @@
+## Login Screen
+<img width="507" alt="Screenshot 2023-03-11 at 11 45 06 AM" src="https://user-images.githubusercontent.com/33384698/224506166-0ddf11dd-8273-45e3-b6de-86726579691a.png">
+
+## Once logged in
+<img width="359" alt="Screenshot 2023-03-11 at 11 46 26 AM" src="https://user-images.githubusercontent.com/33384698/224506201-77e76022-c169-4762-ae1a-7765bdb36e82.png">
+
+### Would love to build out much more functionality within this program feel free to make a pull request :)
+
 # 1. Create virtual python env
 ```bash
 python -m venv venv && source venv/bin/activate #Linux
