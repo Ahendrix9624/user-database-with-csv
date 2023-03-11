@@ -1,3 +1,13 @@
+"""
+USAGE - The code defines functions for user registration and login using a CSV file as a database. 
+        The code imports pandas and IPython.display, as well as a logo and os module. 
+        The main loop starts by displaying a menu with options for login, registration, or quitting. 
+        Once logged in, the user can print the database, log out, or quit. The functions included 
+        handle user registration and login, clear the terminal screen, and check for file errors.
+        
+AUTHOR - https://github.com/Ahendrix9624/
+"""
+
 import pandas as pd
 import os
 from artwork import logo
